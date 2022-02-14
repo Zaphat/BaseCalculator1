@@ -1,0 +1,168 @@
+.tab-pane:focused > .tab-header-area > .headers-region > .tab:selected .focus-indicator {-fx-border-color: #27b5d9;}																																	
+.tab:hover {
+    -fx-color: -fx-hover-base;
+}
+.tab:selected .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-text-fill: #3c81e8;
+    -fx-font-weight: bold;
+}
+.tab:selected {
+    -fx-background-color: #F7F3F3, #F7F3F3;
+    -fx-background-insets: 0, 1 1 0 1;
+    -fx-background-radius: 5 5 0 0, 4 4 0 0;
+}
+
+.root{
+	 -fx-background-color: #F7F3F3;
+}
+
+.radio-button .radio {
+    -fx-border-width: 1px;
+    -fx-background-color: white;
+    -fx-background-image: null;
+    -fx-border-radius: 15px;
+    -fx-padding: 3px;
+}
+.radio-button .radio:selected {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:armed {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:determinate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button -radio:indeterminate {
+    -fx-background-color: white;
+    -fx-background-image: null;
+}
+.radio-button .dot {
+
+    -fx-background-radius: 12px;
+    -fx-padding: 5px;
+}
+.radio-button{
+	-fx-font-family:"Helvetica";
+	-fx-font-size: 14;
+}
+
+.button{
+    -fx-text-fill: #60bd65;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+   -fx-font-weight:bold;
+   -fx-font-size:14;
+ 	}
+.button:hover{     
+  -fx-text-fill:white;
+  -fx-border-color: null;
+  -fx-scale-x: 1.1;
+   -fx-scale-y: 1.1;
+   -fx-scale-z: 1.1;
+}
+
+#swapButton{
+	 -fx-text-fill: #57DDA8;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+   
+}
+#swapButton:hover{
+	 -fx-text-fill: white;
+   -fx-border-color:null;
+   -fx-background-color: #57DDA8;
+   
+}
+
+#resetButton{
+	-fx-text-fill: #F07F59;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+ 	-fx-font-size: 14;
+ 	-fx-font-family:"Bodoni";
+ 	-fx-font-weight:bold;
+}
+#resetButton:hover{
+	-fx-text-fill: white;
+   -fx-border-color:null;
+   -fx-background-color:#F07F59;
+ 	-fx-font-size: 14;
+
+}
+
+#copyButton{
+	 -fx-text-fill: #B485ED;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+   
+}
+#copyButton:hover{
+	 -fx-text-fill: white;
+   -fx-border-color:null;
+   -fx-background-color: #B485ED;
+   
+}
+
+#inType {
+	-fx-font-weight:bold;
+}
+#outType {
+	-fx-font-weight:bold;
+}
+#resetButton:pressed{
+	 -fx-background-color: #912914;
+}
+.text-area:focused{
+	-fx-border-color:#85C4FF;
+}
+
+.toggle-button {
+	-fx-background-color:#32B1FA;
+	-fx-font-weight:bold;
+}
+.toggle-button:selected:disabled {
+	-fx-opacity: 1;
+	-fx-background-color:#008EE0;
+	-fx-text-fill:white;
+}
+#copyButton2{
+	 -fx-text-fill: #54AAF0;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+   
+}
+#copyButton2:hover{
+	 -fx-text-fill: white;
+   -fx-border-color:null;
+   -fx-background-color:#54AAF0;
+   
+}
+
+#saveButton{
+	 -fx-text-fill: #A073FA;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+   
+}
+#saveButton:hover{
+	 -fx-text-fill: white;
+   -fx-border-color:null;
+   -fx-background-color:#A073FA;
+   
+}
+#genButton{
+	 -fx-text-fill: #42D4D6;
+   -fx-border-color:#c3c4c2;
+   -fx-background-color:white;
+   
+}
+#genButton:hover{
+	 -fx-text-fill: white;
+   -fx-border-color:null;
+   -fx-background-color: #42D4D6;
+   
+}
